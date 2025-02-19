@@ -1,0 +1,6 @@
+Epoch	Test Accuracy	Min Index	Selected Indices
+0	9.880	1.766	NA	NA
+1	10.150	1.763	NA	NA
+2	11.860	1.820	NA	NA
+3	11.900	1.822	NA	NA
+4	15.830	1.881	NA	NA
