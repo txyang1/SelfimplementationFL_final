@@ -45,12 +45,12 @@ In this repository, we present a comprehensive approach that:
 for malicious in {1..11}; do     echo "Running with malicious=$malicious";     nice -n 19 python main_sgd.py --dataset cifar --num_channels 3 --model cnn --epoch 50 --gpu -1 --frac 0.25 --local_bs 10 --malicious $malicious --Agg Krum --attack xie --epsilon 1 --addtime 
 10 --iid ; done
 
-### Requirements
+## Requirements
 - **Python 3.x**
 - Required libraries: TensorFlow or PyTorch (choose one based on your implementation), NumPy, SciPy, etc.
 - 
 
-References
+##References
 bibtex
 Copy
 @misc{imag,
@@ -114,7 +114,5 @@ Copy
 Copy
 
 
-Install dependencies using:
-```bash
-pip install -r requirements.txt
+
 
