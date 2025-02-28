@@ -45,6 +45,71 @@ In this repository, we present a comprehensive approach that:
 ### Requirements
 - **Python 3.x**
 - Required libraries: TensorFlow or PyTorch (choose one based on your implementation), NumPy, SciPy, etc.
+- 
+
+References
+bibtex
+Copy
+@misc{imag,
+  author = {securemymind},
+  title = {privacy image},
+  year = {2021},
+  url = {https://blog.securemymind.com/how-to-protect-privacy.html},
+  note = {Accessed: 2024-10-20}
+}
+
+@Article{fi13030073,
+  AUTHOR = {Zhou, Xingchen and Xu, Ming and Wu, Yiming and Zheng, Ning},
+  TITLE = {Deep Model Poisoning Attack on Federated Learning},
+  JOURNAL = {Future Internet},
+  VOLUME = {13},
+  YEAR = {2021},
+  NUMBER = {3},
+  ARTICLE-NUMBER = {73},
+  URL = {https://www.mdpi.com/1999-5903/13/3/73},
+  ISSN = {1999-5903},
+  DOI = {10.3390/fi13030073}
+}
+
+@article{chen2016revisiting,
+  title={Revisiting distributed synchronous SGD},
+  author={Chen, Jianmin and Pan, Xinghao and Monga, Rajat and Bengio, Samy and Jozefowicz, Rafal},
+  journal={arXiv preprint arXiv:1604.00981},
+  year={2016}
+}
+
+@Inbook{Yu2023,
+  author = {Yu, Shui and Cui, Lei},
+  title = {Poisoning Attacks and Counterattacks in Federated Learning},
+  bookTitle = {Security and Privacy in Federated Learning},
+  year = {2023},
+  publisher = {Springer Nature Singapore},
+  address = {Singapore},
+  pages = {37--54},
+  isbn = {978-981-19-8692-5},
+  doi = {10.1007/978-981-19-8692-5_3},
+  url = {https://doi.org/10.1007/978-981-19-8692-5_3}
+}
+
+@inproceedings{narayanan2008robust,
+  title = {Robust de-anonymization of large sparse datasets},
+  author = {Narayanan, Arvind and Shmatikov, Vitaly},
+  booktitle = {2008 IEEE Symposium on Security and Privacy (sp 2008)},
+  pages = {111--125},
+  year = {2008},
+  organization = {IEEE}
+}
+
+@inproceedings{melis2019exploiting,
+  title = {Exploiting unintended feature leakage in collaborative learning},
+  author = {Melis, Luca and Song, Congzheng and De Cristofaro, Emiliano and Shmatikov, Vitaly},
+  booktitle = {2019 IEEE symposium on security and privacy (SP)},
+  pages = {691--706},
+  year = {2019},
+  organization = {IEEE}
+}
+Copy
+
 
 Install dependencies using:
 ```bash
