@@ -120,7 +120,7 @@ class LocalUpdate3(object):
                         clipped[key] = param
                 # add noise
                 grad_noisy = {name: param + torch.normal(mean=0, std=sigma, size=param.shape)
-                                  for name, param in gradient.items()}
+                                  for name, param in clipped.items()}
 
 
                 batch_loss.append(loss.item())  # 将当前批次的损失值添加到 batch_loss 列表中
